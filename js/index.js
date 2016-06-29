@@ -6,6 +6,11 @@ function pickTopping2(){
 	var toppingNumber2 = Math.floor(Math.random()*Toppings.length);
 	document.getElementById('pizza').innerHTML = "<h1>"+Toppings[toppingNumber]+" and "+
 	Toppings[toppingNumber2]+"</h1>";
+	if (toppingNumber == toppingNumber2) {
+		toppingNumber2;
+		document.getElementById('pizza').innerHTML = "<h1>"+Toppings[toppingNumber]+" and "+
+		Toppings[toppingNumber2]+"</h1>";
+	}
 	console.log(Toppings[toppingNumber]);
 	console.log(toppingNumber);
 }
@@ -24,3 +29,4 @@ function pickTopping3(){
 	console.log(Toppings[toppingNumber]);
 	console.log(toppingNumber);
 }
+
