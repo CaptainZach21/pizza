@@ -1,4 +1,4 @@
-var Toppings = ["Pepperoni", 
+var Toppings = ["Pepperoni",
 				"Mushroom", 
 				"Sausage", 
 				"Bell Pepper", 
@@ -12,15 +12,15 @@ var Toppings = ["Pepperoni",
 				"Bacon"
 				];
 
-var Topping_Images = ["../pepperoni.jpg", 
-					"../mushroom.jpg", 
-					"../sausage.jpg",
-					"../bellpepper.png"
-					"../kimchi.jpg"
-					"../pineapple.jpg"
-					"../spinach.jpg"
-					"../garlic.gif"
-					];
+// var Topping_Images = ["../pepperoni.jpg", 
+// 					"../mushroom.jpg", 
+// 					"../sausage.jpg",
+// 					"../bellpepper.png"
+// 					"../kimchi.jpg"
+// 					"../pineapple.jpg"
+// 					"../spinach.jpg"
+// 					"../garlic.gif"
+// 					];
 
 var Crusts = ["thin crust", 
 			"flatbread", 
@@ -49,8 +49,8 @@ function pickTopping2(){
 	var toppingNumber2 = Math.floor(Math.random()*Toppings.length);
 	var crust = Math.floor(Math.random()*Crusts.length);
 	var cheese = Math.floor(Math.random()*Cheeses.length);
-	var toppingImage1 = toppingNumber
-	var ToppingImage2 = toppingNumber2
+	// var toppingImage1 = toppingNumber
+	// var ToppingImage2 = toppingNumber2
 	document.getElementById('pizza').innerHTML = "<h1>"+"Your Pizza is a "+Crusts[crust]+" pizza. "+"It is topped with "+Toppings[toppingNumber]+" and "+
 	Toppings[toppingNumber2]+" and on a bed of "+Cheeses[cheese]+" cheese."+"</h1>";
 	if (toppingNumber == toppingNumber2) {
@@ -65,7 +65,7 @@ function pickTopping1(){
 	var toppingNumber = Math.floor(Math.random()*Toppings.length);
 	var crust = Math.floor(Math.random()*Crusts.length);
 	var cheese = Math.floor(Math.random()*Cheeses.length);
-	var toppingImage1 = toppingNumber
+	// var toppingImage1 = toppingNumber
 	document.getElementById('pizza').innerHTML = "<h1>"+"Your Pizza is a "+Crusts[crust]+" pizza. "+"It is topped with "+Toppings[toppingNumber]+" and on a bed of "+
 	Cheeses[cheese]+" cheese."+"</h1>";
 	console.log(Toppings[toppingNumber]);
@@ -77,9 +77,9 @@ function pickTopping3(){
 	var toppingNumber3 = Math.floor(Math.random()*Toppings.length);
 	var crust = Math.floor(Math.random()*Crusts.length);
 	var cheese = Math.floor(Math.random()*Cheeses.length);
-	var toppingImage1 = toppingNumber
-	var ToppingImage2 = toppingNumber2
-	var TopppingImage3 = toppingNumber3
+	// var toppingImage1 = toppingNumber
+	// var ToppingImage2 = toppingNumber2
+	// var TopppingImage3 = toppingNumber3
 	document.getElementById('pizza').innerHTML = "<h1>"+"Your Pizza is a "+Crusts[crust]+" pizza. "+"It is topped with "+Toppings[toppingNumber]+", "+
 	Toppings[toppingNumber2]+" and "+Toppings[toppingNumber3]+" and on a bed of "+
 	Cheeses[cheese]+" cheese."+"</h1>";
