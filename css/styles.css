@@ -5,8 +5,20 @@ body{
 
 }
 
+.bigButton{
+	height: 25px;
+}
+
 body{
 	background-image: url("../assets/pizza.jpg");
+
+	font-size: 30px
+
 }
+
+body{
+	color: white
+}
+
 
 
