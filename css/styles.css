@@ -1,22 +1,43 @@
 body{
 	text-align:center;
-
-	font-family: Arial
+	cursor-size: 100px;
+	font-family: Arial;
 
 }
 
 .bigButton{
-	height: px;
+	height: 50px;
+	border-radius: 100px;
+	font-size: 15px;
+	background-color: white;
+	font-color: orange;
+	font-family: Arial;
+	cursor: pointer;
 }
 
 body{
-	background-color: blue;
-
+	background-image:  url("../assets/background2.jpeg");
 	font-size: 30px
 
 }
 
 body{
-	color: white
+	color: orange;
 }
 
+.img{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+
+.bigButton:hover{
+	height: 75px;
+	font-size: 22.5px;
+
+}
+h1#title{
+	font-size: 60px;
+	font-color: orange;
+	font-family: Arial;
+}
